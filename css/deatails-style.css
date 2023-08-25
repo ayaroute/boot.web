@@ -1,0 +1,6 @@
+header{
+    background-image:linear-gradient(rgba(29, 19, 207, 0.5),rgba(29,19,207,0.5)), url(../img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}

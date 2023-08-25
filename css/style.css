@@ -1,0 +1,239 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+header{
+    background-size: cover;
+    background-position: center center;;
+    background-image: url(../img/hero-bg.jpg);
+}
+
+.nav-link
+{
+   color: white;
+}
+.header-type
+{
+
+     text-align: center;
+     margin:100px auto;
+     font-size: 40px;
+}
+.header-type::after
+{
+     content: '';
+     animation: typing 3s infinite ;
+}
+
+@keyframes typing
+{
+     0%
+{ content: 'D';}
+5%
+{ content: 'De';}
+10%
+{ content: 'Dev';}
+15%
+{ content: 'Devl';}
+20%
+{ content: 'Develo';}
+25%
+{ content: 'Develop';}
+30%
+{ content: 'Devlope';}
+35%
+{ content: 'Developer';}
+40%
+{ content: 'f';}
+
+45%
+{ content: 'Fr';}
+50%
+{ content: 'Free';}
+55%
+{ content: 'Freel';}
+60%
+{ content: 'Freela';}
+65%
+{ content: 'Freelan';}
+70%
+{ content: 'Freelanc';}
+
+75%
+{ content: 'Freelancer';}
+80%
+{ content: 'D';}
+85%
+{ content: 'De';}
+90%{
+    content:'Des';
+}
+95%{
+    content: 'Desi';
+}
+100%
+{
+    content: 'Designer';
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+#services
+{
+background-color: #F5F5F5;
+
+}
+#portofilo
+{
+    background-color: #F5F5F5;
+
+    
+}
+#blog
+{
+    background-color: #F5F5F5;
+
+}
+#contact
+{
+background-image: url(../img/overlay-bg.jpg);
+
+}
+.layer
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.services .item i:hover{
+box-shadow: 0 0 0 10px #0078ff;
+background-color: #0078ff;
+
+}
+.services .item
+{
+    transition: all 1s ease;
+}
+
+.portofilo .card img:hover{
+transform: scale(1.25);
+
+}
+.portofilo .card img{
+    transition: all 1s;
+}
+
+#test
+{
+    background-image:linear-gradient(rgba(29, 19, 207, 0.5),rgba(29,19,207,0.5)), url(../img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.layer-left
+{
+    width: 80px;
+    height: 5px;
+    background-color: #0078ff;
+    text-align: left;
+}
+
+.card-body {
+    position: relative;
+}
+.card-travel-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.card-travel {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+.icons ul li
+{
+ width:40px ;
+ height: 40px;
+    border-radius: 50%;
+    border:3px solid blue ;
+    text-align: center;
+}
+.icons ul li:hover{
+
+color: white;
+box-shadow: 0 0 0 10px #0078ff;
+background-color: #0078ff;
+
+
+}
+
+.btn{
+background-color: #0078ff;
+color: white;
+}
+.btn:hover{
+    box-shadow: 0 0 0 5px #0078ff;
+    background-color: #0078ff;
+    color: white;
+}
+
+#contact
+{
+    background-image:linear-gradient(rgba(29, 19, 207, 0.5),rgba(29,19,207,0.5)), url(../img/overlay-bg.jpg);
+}
+.social .icon{
+width: 40px;
+height: 40px;
+ border-radius: 50%;
+ border: 2px solid #0078ff;
+ transition: all 1s;
+}
+.icon{
+    text-align: center;
+    font-size: 20px;
+}
+
+.social .icon:hover{
+    box-shadow: 0 0 0 5px #0078ff;
+    background-color: #0078ff;
+    color: white;
+}
+
+
+
+
+#content .box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
